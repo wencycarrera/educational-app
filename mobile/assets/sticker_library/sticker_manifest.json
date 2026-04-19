@@ -1,0 +1,423 @@
+[
+  {
+    "id": "fruit_apple_red",
+    "name": "Red Apple",
+    "category": "Fruits",
+    "path": "./fruits/apple_red.png",
+    "tags": ["counting", "fruit", "food"]
+  },
+  {
+    "id": "fruit_apple_green",
+    "name": "Green Apple",
+    "category": "Fruits",
+    "path": "./fruits/apple_green.png",
+    "tags": ["counting", "fruit", "food"]
+  },
+  {
+    "id": "fruit_banana",
+    "name": "Banana",
+    "category": "Fruits",
+    "path": "./fruits/banana.png",
+    "tags": ["counting", "fruit", "food"]
+  },
+  {
+    "id": "fruit_orange",
+    "name": "Orange",
+    "category": "Fruits",
+    "path": "./fruits/orange.png",
+    "tags": ["counting", "fruit", "food"]
+  },
+  {
+    "id": "fruit_strawberry",
+    "name": "Strawberry",
+    "category": "Fruits",
+    "path": "./fruits/strawberry.png",
+    "tags": ["counting", "fruit", "food"]
+  },
+  {
+    "id": "fruit_mango",
+    "name": "Mango",
+    "category": "Fruits",
+    "path": "./fruits/mango.png",
+    "tags": ["counting", "fruit", "food", "filipino"]
+  },
+  {
+    "id": "shape_circle",
+    "name": "Circle",
+    "category": "Shapes",
+    "path": "./shapes/circle.png",
+    "tags": ["shape", "geometry", "pattern"]
+  },
+  {
+    "id": "shape_square",
+    "name": "Square",
+    "category": "Shapes",
+    "path": "./shapes/square.png",
+    "tags": ["shape", "geometry", "pattern"]
+  },
+  {
+    "id": "shape_triangle",
+    "name": "Triangle",
+    "category": "Shapes",
+    "path": "./shapes/triangle.png",
+    "tags": ["shape", "geometry", "pattern"]
+  },
+  {
+    "id": "shape_rectangle",
+    "name": "Rectangle",
+    "category": "Shapes",
+    "path": "./shapes/rectangle.png",
+    "tags": ["shape", "geometry", "pattern"]
+  },
+  {
+    "id": "shape_star",
+    "name": "Star",
+    "category": "Shapes",
+    "path": "./shapes/star.png",
+    "tags": ["shape", "geometry", "pattern", "reward"]
+  },
+  {
+    "id": "shape_heart",
+    "name": "Heart",
+    "category": "Shapes",
+    "path": "./shapes/heart.png",
+    "tags": ["shape", "geometry", "pattern"]
+  },
+  {
+    "id": "money_coin_1peso",
+    "name": "1 Peso Coin",
+    "category": "Money",
+    "path": "./money/coin_1peso.png",
+    "tags": ["money", "philippine", "peso", "coin"]
+  },
+  {
+    "id": "money_coin_5peso",
+    "name": "5 Peso Coin",
+    "category": "Money",
+    "path": "./money/coin_5peso.png",
+    "tags": ["money", "philippine", "peso", "coin"]
+  },
+  {
+    "id": "money_coin_10peso",
+    "name": "10 Peso Coin",
+    "category": "Money",
+    "path": "./money/coin_10peso.png",
+    "tags": ["money", "philippine", "peso", "coin"]
+  },
+  {
+    "id": "money_bill_20peso",
+    "name": "20 Peso Bill",
+    "category": "Money",
+    "path": "./money/bill_20peso.png",
+    "tags": ["money", "philippine", "peso", "bill"]
+  },
+  {
+    "id": "money_bill_50peso",
+    "name": "50 Peso Bill",
+    "category": "Money",
+    "path": "./money/bill_50peso.png",
+    "tags": ["money", "philippine", "peso", "bill"]
+  },
+  {
+    "id": "number_0",
+    "name": "Number 0",
+    "category": "Numbers",
+    "path": "./numbers/number_0.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_1",
+    "name": "Number 1",
+    "category": "Numbers",
+    "path": "./numbers/number_1.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_2",
+    "name": "Number 2",
+    "category": "Numbers",
+    "path": "./numbers/number_2.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_3",
+    "name": "Number 3",
+    "category": "Numbers",
+    "path": "./numbers/number_3.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_4",
+    "name": "Number 4",
+    "category": "Numbers",
+    "path": "./numbers/number_4.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_5",
+    "name": "Number 5",
+    "category": "Numbers",
+    "path": "./numbers/number_5.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_6",
+    "name": "Number 6",
+    "category": "Numbers",
+    "path": "./numbers/number_6.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_7",
+    "name": "Number 7",
+    "category": "Numbers",
+    "path": "./numbers/number_7.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_8",
+    "name": "Number 8",
+    "category": "Numbers",
+    "path": "./numbers/number_8.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_9",
+    "name": "Number 9",
+    "category": "Numbers",
+    "path": "./numbers/number_9.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_10",
+    "name": "Number 10",
+    "category": "Numbers",
+    "path": "./numbers/number_10.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_11",
+    "name": "Number 11",
+    "category": "Numbers",
+    "path": "./numbers/number_11.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_12",
+    "name": "Number 12",
+    "category": "Numbers",
+    "path": "./numbers/number_12.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_13",
+    "name": "Number 13",
+    "category": "Numbers",
+    "path": "./numbers/number_13.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_14",
+    "name": "Number 14",
+    "category": "Numbers",
+    "path": "./numbers/number_14.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_15",
+    "name": "Number 15",
+    "category": "Numbers",
+    "path": "./numbers/number_15.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_16",
+    "name": "Number 16",
+    "category": "Numbers",
+    "path": "./numbers/number_16.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_17",
+    "name": "Number 17",
+    "category": "Numbers",
+    "path": "./numbers/number_17.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_18",
+    "name": "Number 18",
+    "category": "Numbers",
+    "path": "./numbers/number_18.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_19",
+    "name": "Number 19",
+    "category": "Numbers",
+    "path": "./numbers/number_19.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "number_20",
+    "name": "Number 20",
+    "category": "Numbers",
+    "path": "./numbers/number_20.png",
+    "tags": ["number", "counting", "numeral"]
+  },
+  {
+    "id": "symbol_plus",
+    "name": "Plus Sign",
+    "category": "Math Symbols",
+    "path": "./symbols/plus.png",
+    "tags": ["math", "addition", "symbol"]
+  },
+  {
+    "id": "symbol_minus",
+    "name": "Minus Sign",
+    "category": "Math Symbols",
+    "path": "./symbols/minus.png",
+    "tags": ["math", "subtraction", "symbol"]
+  },
+  {
+    "id": "symbol_equals",
+    "name": "Equals Sign",
+    "category": "Math Symbols",
+    "path": "./symbols/equals.png",
+    "tags": ["math", "equality", "symbol"]
+  },
+  {
+    "id": "symbol_greater_than",
+    "name": "Greater Than",
+    "category": "Math Symbols",
+    "path": "./symbols/greater_than.png",
+    "tags": ["math", "comparison", "symbol"]
+  },
+  {
+    "id": "symbol_less_than",
+    "name": "Less Than",
+    "category": "Math Symbols",
+    "path": "./symbols/less_than.png",
+    "tags": ["math", "comparison", "symbol"]
+  },
+  {
+    "id": "object_block",
+    "name": "Counting Block",
+    "category": "Objects",
+    "path": "./objects/block.png",
+    "tags": ["counting", "object", "block"]
+  },
+  {
+    "id": "object_basket",
+    "name": "Basket",
+    "category": "Objects",
+    "path": "./objects/basket.png",
+    "tags": ["container", "object", "collection"]
+  },
+  {
+    "id": "object_box",
+    "name": "Box",
+    "category": "Objects",
+    "path": "./objects/box.png",
+    "tags": ["container", "object", "collection"]
+  },
+  {
+    "id": "tool_ruler",
+    "name": "Ruler",
+    "category": "Measurement",
+    "path": "./tools/ruler.png",
+    "tags": ["measurement", "length", "tool"]
+  },
+  {
+    "id": "tool_scale",
+    "name": "Balance Scale",
+    "category": "Measurement",
+    "path": "./tools/scale.png",
+    "tags": ["measurement", "weight", "tool"]
+  },
+  {
+    "id": "tool_clock",
+    "name": "Clock",
+    "category": "Measurement",
+    "path": "./tools/clock.png",
+    "tags": ["measurement", "time", "tool"]
+  },
+  {
+    "id": "pattern_circle_red",
+    "name": "Red Circle",
+    "category": "Patterns",
+    "path": "./patterns/circle_red.png",
+    "tags": ["pattern", "color", "circle"]
+  },
+  {
+    "id": "pattern_circle_blue",
+    "name": "Blue Circle",
+    "category": "Patterns",
+    "path": "./patterns/circle_blue.png",
+    "tags": ["pattern", "color", "circle"]
+  },
+  {
+    "id": "pattern_circle_yellow",
+    "name": "Yellow Circle",
+    "category": "Patterns",
+    "path": "./patterns/circle_yellow.png",
+    "tags": ["pattern", "color", "circle"]
+  },
+  {
+    "id": "pattern_circle_green",
+    "name": "Green Circle",
+    "category": "Patterns",
+    "path": "./patterns/circle_green.png",
+    "tags": ["pattern", "color", "circle"]
+  },
+  {
+    "id": "pattern_square_red",
+    "name": "Red Square",
+    "category": "Patterns",
+    "path": "./patterns/square_red.png",
+    "tags": ["pattern", "color", "square"]
+  },
+  {
+    "id": "pattern_square_blue",
+    "name": "Blue Square",
+    "category": "Patterns",
+    "path": "./patterns/square_blue.png",
+    "tags": ["pattern", "color", "square"]
+  },
+  {
+    "id": "pattern_square_yellow",
+    "name": "Yellow Square",
+    "category": "Patterns",
+    "path": "./patterns/square_yellow.png",
+    "tags": ["pattern", "color", "square"]
+  },
+  {
+    "id": "pattern_square_green",
+    "name": "Green Square",
+    "category": "Patterns",
+    "path": "./patterns/square_green.png",
+    "tags": ["pattern", "color", "square"]
+  },
+  {
+    "id": "reward_star_gold",
+    "name": "Gold Star",
+    "category": "Rewards",
+    "path": "./rewards/star_gold.png",
+    "tags": ["reward", "gamification", "star"]
+  },
+  {
+    "id": "reward_star_silver",
+    "name": "Silver Star",
+    "category": "Rewards",
+    "path": "./rewards/star_silver.png",
+    "tags": ["reward", "gamification", "star"]
+  },
+  {
+    "id": "reward_trophy",
+    "name": "Trophy",
+    "category": "Rewards",
+    "path": "./rewards/trophy.png",
+    "tags": ["reward", "gamification", "achievement"]
+  }
+]
+
