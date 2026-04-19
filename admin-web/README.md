@@ -1,113 +1,113 @@
-# Shadcn Admin Dashboard
+KidVenture Admin Web
 
-Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.
+Admin Web Dashboard for the KidVenture Learning System.
+Built using React, TypeScript, Vite, and Shadcn UI, with a focus on responsiveness, modular architecture, and accessibility.
 
-![alt text](public/images/shadcn-admin.png)
+📌 Overview
 
-[![Sponsored by Clerk](https://img.shields.io/badge/Sponsored%20by-Clerk-5b6ee1?logo=clerk)](https://go.clerk.com/GttUAaK)
+The KidVenture Admin Web is the central management system of the KidVenture platform. It is used by administrators to manage users, approve teachers, monitor student progress, manage learning content, and handle system-wide configurations.
 
-I've been creating dashboard UIs at work and for my personal projects. I always wanted to make a reusable collection of dashboard UI for future projects; and here it is now. While I've created a few custom components, some of the code is directly adapted from ShadcnUI examples.
+This dashboard is designed as a feature-based modular system, making it scalable, maintainable, and easy to extend.
 
-> This is not a starter project (template) though. I'll probably make one in the future.
+🖼️ Preview
 
-## Features
+⚙️ Features
 
-- Light/dark mode
-- Responsive
-- Accessible
-- With built-in Sidebar component
-- Global search command
-- 10+ pages
-- Extra custom components
-- RTL support
+The Admin Web includes the following core functionalities:
 
-<details>
-<summary>Customized Components (click to expand)</summary>
+User management for students, teachers, and administrators
+Teacher approval and verification system
+Learning content management (sub-lessons and activities)
+Task creation and assignment system
+Student activity tracking and progress monitoring
+Feedback collection and review system
+System settings and configuration
+Dashboard analytics and reporting overview
+Responsive UI for desktop and tablet use
+Light and dark mode support
+Role-based access control system
+🧠 System Structure
 
-This project uses Shadcn UI components, but some have been slightly modified for better RTL (Right-to-Left) support and other improvements. These customized components differ from the original Shadcn UI versions.
+The project follows a modular architecture where each feature is separated into its own domain.
 
-If you want to update components using the Shadcn CLI (e.g., `npx shadcn@latest add <component>`), it's generally safe for non-customized components. For the listed customized ones, you may need to manually merge changes to preserve the project's modifications and avoid overwriting RTL support or other updates.
+Main Feature Modules
+User Management → src/features/users
+Teacher Approvals → src/features/teacher-approvals
+Sub-Lessons / Learning Content → src/features/sub-lessons
+Tasks Management → src/features/tasks
+Student Activity Tracking → src/features/student-activity
+Feedback System → src/features/teacher-feedback
+Settings & Profile → src/features/settings
+Dashboard Analytics → src/features/dashboard
+🔐 Authentication System
 
-> If you don't require RTL support, you can safely update the 'RTL Updated Components' via the Shadcn CLI, as these changes are primarily for RTL compatibility. The 'Modified Components' may have other customizations to consider.
+Authentication and user session management are handled through a centralized system.
 
-### Modified Components
+Key Files
+src/lib/auth-service.ts
+src/stores/auth-store.ts
+src/routes/(auth)/
+Features
+Secure login system
+Role-based access (Admin, Teacher, Student)
+Session persistence
+Route protection
+🧩 UI System
 
-- scroll-area
-- sonner
-- separator
+The Admin Web uses a reusable component-based UI system built with Shadcn UI.
 
-### RTL Updated Components
+UI Structure
+src/components/ui → Reusable UI components
+src/components/data-table → Table system for large datasets
+src/components/layout → App layout components
+src/routes → Application routing system
+📊 Dashboard System
 
-- alert-dialog
-- calendar
-- command
-- dialog
-- dropdown-menu
-- select
-- table
-- sheet
-- sidebar
-- switch
+The dashboard provides a high-level overview of the entire system.
 
-**Notes:**
+Includes:
+Total number of users
+Student performance summary
+Recent system activity
+Analytics charts
+Quick access to key modules
+🚀 How to Run Locally
+1. Install dependencies
+npm install
+2. Start development server
+npm run dev
+3. Open in browser
+http://localhost:5173
+🏗️ Tech Stack
 
-- **Modified Components**: These have general updates, potentially including RTL adjustments.
-- **RTL Updated Components**: These have specific changes for RTL language support (e.g., layout, positioning).
-- For implementation details, check the source files in `src/components/ui/`.
-- All other Shadcn UI components in the project are standard and can be safely updated via the CLI.
+The Admin Web is built using modern web technologies:
 
-</details>
+React
+TypeScript
+Vite
+Shadcn UI (Tailwind + Radix UI)
+TanStack Router
+Lucide Icons
+ESLint & Prettier
+📁 Project Highlights
 
-## Tech Stack
+This system is designed with:
 
-**UI:** [ShadcnUI](https://ui.shadcn.com) (TailwindCSS + RadixUI)
+Modular feature-based architecture
+Reusable UI components
+Scalable folder structure
+Role-based system design
+Clean separation of logic and UI
+Responsive dashboard layout
+📌 Important Notes
+This system is part of the KidVenture Learning Ecosystem
+It should always be used together with the Mobile Application and Backend Utilities
+Admin access is required for full system control
+Designed for scalability and future expansion
+🧾 License
 
-**Build Tool:** [Vite](https://vitejs.dev/)
+This project is for educational and capstone purposes.
 
-**Routing:** [TanStack Router](https://tanstack.com/router/latest)
+👨‍💻 Developer
 
-**Type Checking:** [TypeScript](https://www.typescriptlang.org/)
-
-**Linting/Formatting:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
-
-**Icons:** [Lucide Icons](https://lucide.dev/icons/), [Tabler Icons](https://tabler.io/icons) (Brand icons only)
-
-**Auth (partial):** [Clerk](https://go.clerk.com/GttUAaK)
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/jhtaningco/educational-app.git
-```
-
-Go to the project directory
-
-```bash
-  cd educational-app/admin-web
-```
-
-Install dependencies
-
-```bash
-  pnpm install
-```
-
-Start the server
-
-```bash
-  pnpm run dev
-```
-
-## Credits
-
-This project is based on the [Shadcn Admin Dashboard](https://github.com/satnaing/shadcn-admin) by [@satnaing](https://github.com/satnaing).
-
-### Current Sponsor
-
-- [Clerk](https://go.clerk.com/GttUAaK) - authentication and user management for the modern web
-
-## License
-
-Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+KidVenture Development Team

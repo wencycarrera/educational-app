@@ -1,50 +1,151 @@
-# Welcome to your Expo app 👋
+KidVenture Mobile Application
+📌 Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The KidVenture Mobile Application is a React Native (Expo) based learning platform designed for Grade 1 students. It provides a gamified and interactive learning experience supported by teachers and parents.
 
-## Get started
+The application follows a file-based routing structure using Expo Router and is organized into role-based modules: Student, Teacher, Parent, and Authentication.
 
+⚙️ Purpose
+
+This mobile application is responsible for:
+
+Delivering interactive math learning experiences
+Providing gamified educational activities for students
+Allowing teachers to create and manage learning content
+Enabling parents to monitor student progress
+Supporting authentication and role-based access
+Integrating with backend services and Firebase
+🚀 Getting Started
 1. Install dependencies
+npm install
+2. Start the application
+npx expo start
+📱 Running the App
 
-   ```bash
-   npm install
-   ```
+After starting the development server, you can run the app using:
 
-2. Start the app
+Expo Go (mobile testing environment)
+Android Emulator
+iOS Simulator
+Development Build
 
-   ```bash
-   npx expo start
-   ```
+More details: https://docs.expo.dev
 
-In the output, you'll find options to open the app in a
+🧭 Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The app uses file-based routing (Expo Router). All screens are located inside the app directory.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Main Modules
+Authentication Module
+Student Module
+Teacher Module
+Parent Zone
+🔐 Authentication Module
 
-## Get a fresh project
+Handles login, registration, onboarding, and account verification.
 
-When you're ready, run:
+Features:
+Login system
+Parent registration
+Teacher registration
+Email verification
+Onboarding flow
+Teacher approval waiting screen
+🎓 Student Module (Core Learning System)
 
-```bash
-npm run reset-project
-```
+This is the main learning experience for students.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Features:
+Student dashboard with progress tracking
+Interactive lessons and sub-lessons
+Gamified learning activities
+Classroom joining system
+Notifications system
+Learning materials access
+Parent monitoring support
+👩‍🏫 Teacher Module
 
-## Learn more
+Used by teachers to manage classrooms and learning content.
 
-To learn more about developing your project with Expo, look at the following resources:
+Features:
+Classroom creation and management
+Student roster management
+Activity and sub-lesson creation
+Student progress tracking
+Performance analytics
+Feedback system
+👨‍👩‍👧 Parent Zone
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Allows parents to monitor their child’s learning progress.
 
-## Join the community
+Features:
+Student progress tracking
+Performance reports
+Learning activity monitoring
+Settings and notifications
+🧠 Architecture Overview
 
-Join our community of developers creating universal apps.
+The application is built using:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+React Native (Expo)
+TypeScript
+Expo Router (file-based navigation)
+Firebase (authentication and backend services)
+Modular service-based architecture
+📂 Key Folder Structure
+app/(auth) → Authentication screens
+app/(student) → Student learning system
+app/(teacher) → Teacher tools and dashboard
+app/(parent-zone) → Parent monitoring system
+src/components → Reusable UI and game components
+src/services → Business logic and API services
+src/hooks → Custom React hooks
+assets → Images, sounds, and game resources
+🎮 Game System (Core Feature)
+
+The app includes a gamified learning system designed for early learners.
+
+Game Engines:
+Quiz Engine
+Matching Engine
+Drag and Drop Engine
+Number Line Engine
+Visual Counting Engine
+Word Problem Engine
+Ordering Engine
+Place Value Engine
+
+These engines transform traditional lessons into interactive learning experiences.
+
+🎨 Assets System
+
+The application includes a structured asset system to support engagement.
+
+Includes:
+Images and icons
+Background music
+Sticker library:
+Fruits
+Numbers
+Shapes
+Money
+Rewards
+Tools
+Patterns
+🚀 Development Notes
+Uses Expo Router for navigation
+Fully modular architecture
+Designed for scalability and future expansion
+Integrated with Firebase backend services
+Supports role-based access system
+⚠️ Important Notes
+Always install dependencies before running the app
+Use Expo Go or emulator for testing
+Ensure Firebase configuration is set properly
+Do not modify core routing structure without understanding file-based routing
+📚 Learn More
+https://docs.expo.dev
+https://reactnative.dev
+https://firebase.google.com
+👨‍💻 Developer
+KidVenture Development Team
